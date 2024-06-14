@@ -136,7 +136,7 @@ pip install .
 3. Also can be installed from git as well after pushing to github
 
 ```
-pip install git+https://github.com/manifoldailearning/prediction_model.git
+pip install git+https://github.com/majid-hosseini/installable_ML_model.git
 ```
 
 # Testing the Package Working
@@ -151,7 +151,6 @@ pip install git+https://github.com/manifoldailearning/prediction_model.git
 
 4. Before installing, test whether you are able to import the package of `prediction_model` - (you should not be able to do it)
 5. Now in the new environment install the package from github
-`pip install git+https://github.com/manifoldailearning/prediction_model.git`
 `pip install git+https://github.com/majid-hosseini/installable_ML_model.git`
 6. Now try importing the prediction_model, you should be able to do it successfully by running:
 
