@@ -26,38 +26,6 @@ The data corresponds to a set of financial requests associated with individuals.
 
 Source: Kaggle
 
-
-
-├── MANIFEST.in
-├── prediction_model
-│   ├── config
-│   │   ├── config.py
-│   │   └── __init__.py
-│   ├── datasets
-│   │   ├── __init__.py
-│   │   ├── test.csv
-│   │   └── train.csv
-│   ├── __init__.py
-│   ├── pipeline.py
-│   ├── predict.py
-│   ├── processing
-│   │   ├── data_handling.py
-│   │   ├── __init__.py
-│   │   └── preprocessing.py
-│   ├── trained_models
-│   │   ├── classification.pkl
-│   │   └── __init__.py
-│   ├── training_pipeline.py
-│   └── VERSION
-├── README.md
-├── requirements.txt
-├── setup.py
-└── tests
-    ├── pytest.ini
-    └── test_prediction.py
-```
-
-
 ## Running Locally
 
 Add PYTHONPATH variable for `~/.bash_profile ` for MacOS
@@ -106,6 +74,36 @@ deactivate
 prediction_model
 
 
+├── MANIFEST.in
+├── prediction_model
+│   ├── config
+│   │   ├── config.py
+│   │   └── __init__.py
+│   ├── datasets
+│   │   ├── __init__.py
+│   │   ├── test.csv
+│   │   └── train.csv
+│   ├── __init__.py
+│   ├── pipeline.py
+│   ├── predict.py
+│   ├── processing
+│   │   ├── data_handling.py
+│   │   ├── __init__.py
+│   │   └── preprocessing.py
+│   ├── trained_models
+│   │   ├── classification.pkl
+│   │   └── __init__.py
+│   ├── training_pipeline.py
+│   └── VERSION
+├── README.md
+├── requirements.txt
+├── setup.py
+└── tests
+    ├── pytest.ini
+    └── test_prediction.py
+```
+
+
 # Build the Package
 
 1. Goto Project directory and install dependencies
@@ -138,7 +136,7 @@ pip install .
 3. Also can be installed from git as well after pushing to github
 
 ```
-pip install git+https://github.com/majid-hosseini/installable_ML_model.git
+pip install git+https://github.com/manifoldailearning/prediction_model.git
 ```
 
 # Testing the Package Working
@@ -148,7 +146,7 @@ pip install git+https://github.com/majid-hosseini/installable_ML_model.git
 3. Create a new virual environment using the commands mentioned above & activate it
 4. Before installing, test whether you are able to import the package of `prediction_model` - (you should not be able to do it)
 5. Now in the new environment install the package from github
-`pip install git+https://github.com/majid-hosseini/installable_ML_model.git`
+`pip install git+https://github.com/manifoldailearning/prediction_model.git`
 6. Now try importing the prediction_model, you should be able to do it successfully
 7. Extras : Run training pipeline using the package, and also conduct the test
 
