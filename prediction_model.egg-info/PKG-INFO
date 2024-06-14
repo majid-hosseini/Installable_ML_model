@@ -1,3 +1,29 @@
+Metadata-Version: 2.1
+Name: prediction_model
+Version: 1.0.0
+Summary: Loan Prediction Model
+Home-page: https://github.com/majid-hosseini/installable_ML_model
+Author: Majid Hosseini
+Author-email: majid.chbe@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: joblib
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: pytest
+Requires-Dist: setuptools
+Requires-Dist: wheel
+
+
 
 # Packaging the ML Model of Classification
 
