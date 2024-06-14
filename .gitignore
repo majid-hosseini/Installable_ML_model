@@ -1,0 +1,19 @@
+venv_ml_package/
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environments
+venv/
+venv_ml_package/
+
+# Ignore IDE project files
+.idea/
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore environment variables files
+.env
