@@ -1,4 +1,3 @@
-venv_ml_package/
 # Ignore Python bytecode files
 *.pyc
 *.pyo
