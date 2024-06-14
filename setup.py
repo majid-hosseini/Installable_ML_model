@@ -8,9 +8,9 @@ from setuptools import find_packages, setup
 # Metadata of package
 NAME = 'prediction_model'
 DESCRIPTION = 'Loan Prediction Model'
-URL = 'https://github.com/manifoldailearning'
-EMAIL = 'murthy@manifoldailearning.in'
-AUTHOR = 'Nachiketh Murthy'
+URL = 'https://github.com/majid-hosseini/installable_ML_model'
+EMAIL = 'majid.chbe@gmail.com'
+AUTHOR = 'Majid Hosseini'
 REQUIRES_PYTHON = '>=3.7.0'
 
 pwd = os.path.abspath(os.path.dirname(__file__))
