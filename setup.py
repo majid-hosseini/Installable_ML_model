@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 
 
 # Metadata of package
-NAME = 'prediction_model'
+NAME = 'installable_ML_model'
 DESCRIPTION = 'Loan Prediction Model'
 URL = 'https://github.com/majid-hosseini/installable_ML_model'
 EMAIL = 'majid.chbe@gmail.com'
