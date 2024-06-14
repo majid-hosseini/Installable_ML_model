@@ -146,6 +146,7 @@ pip install git+https://github.com/manifoldailearning/prediction_model.git
 3. Create a new virual environment using the commands mentioned above & activate it
 
     virtualenv testing_ml_package
+
     source testing_ml_package/bin/activate
 
 4. Before installing, test whether you are able to import the package of `prediction_model` - (you should not be able to do it)
@@ -154,8 +155,9 @@ pip install git+https://github.com/manifoldailearning/prediction_model.git
 6. Now try importing the prediction_model, you should be able to do it successfully by running:
 
     python
-    import prediction_model
     
+    import prediction_model
+
 7. Extras : Run training pipeline using the package, and also conduct the test
 
 
